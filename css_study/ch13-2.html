@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border: 1px solid #222;
+            width: 300px;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            /* align-items: center; */
+        }
+        .box{
+            border: 1px solid #222;
+            padding: auto;
+            width: auto;
+            height: 20px;
+            font-size: 10px;
+        }
+        .button{
+            font-size: 8px;
+        }
+        #container> p:nth-of-type(2n) {
+            background-color: red;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">Language</div>
+        <div class="box">
+            <button class="button">JavaScript</button>
+            <button class="button">TypeScript</button>
+            <button class="button">C++</button>
+            <button class="button">Java</button>
+            <button class="button">Python</button>
+        </div>
+        <div class="box">Web Frond-End</div>
+        <div class="box">
+            <button class="button">React</button>
+            <button class="button">Vue.js</button>
+        </div>
+        <div class="box">Web Back-End</div>
+        <div class="box">
+            <button class="button">JSP</button>
+            <button class="button">Spring</button>
+            <button class="button">Spring Boot</button>
+        </div>
+        <div class="box">DataBase</div>
+        <div class="box">
+            <button class="button">Oracle</button>
+            <button class="button">MySQL</button>
+            <button class="button">My SQL Server</button>
+        </div>
+        <div class="box">etc</div>
+        <div class="box">
+            <button class="button">Adobe photoshop</button>
+            <button class="button">Adobe Premiere Pro</button>
+            <button class="button">Pro Tools</button>
+        </div>
+    </div>
+</body>
+</html>
