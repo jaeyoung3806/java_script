@@ -6,11 +6,18 @@
     <title>Document</title>
 </head>
 <body>
-    
-    <div>
-        <input type="" id="input-value">
-        <input type="button" value="입력" onclick="inputValue()">
-    </div>
+   <div>
+        <input type="text" class="add-input">
+   </div>
+   <ul class="content-list">
+        <li>    
+            <span>${dataObj.id}번 </span>
+            <span>${dataObj.content}</span>
+            <input type="text" class="edit-inputs" value="${dataObj.content}">
+            <button>수정</button>
+            <button>삭제</button>
+        </li>
+   </ul>
     <script src="js/test.js"></script>
 </body>
 </html>
